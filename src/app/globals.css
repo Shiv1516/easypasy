@@ -305,7 +305,7 @@ table {
 /* Backgound Color & Font Color Style */
 .bg1,
 .bg-h2:hover {
-  background-color: #161615;
+  background-color: #111;
 }
 .bg2,
 .bg-h1:hover {
@@ -314,6 +314,9 @@ table {
 .bg3,
 .bg-h3:hover {
   background-color: #fdfcfc;
+}
+.bg4{
+  background-color: #ffffff1a;
 }
 .bg-li {
   background: linear-gradient(180deg, #000, #000000b3);
@@ -867,12 +870,12 @@ table {
 
 /* border Style */
 .brd1 {
-  border: 1px solid #181818;
+  border: 1px solid #ece6e6;
 }
 .brd2 {
   border: 1px solid #031be11a;
 }
-.brd-b1{
+.brd-b1 {
   border-left: 1px solid #031be11a;
   border-right: 1px solid #031be11a;
 }
@@ -1004,25 +1007,32 @@ table {
 }
 
 /* About-us  */
-.about-detail-box{
+.about-detail-box {
   width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.second{
+.second {
   top: 30%;
-    left: 20%;
+  left: 20%;
 }
-.third{
+.third {
   top: 56%;
-    left: 31%;
+  left: 31%;
 }
 
 /* services  */
 .service-heading {
   font-size: 100px;
   line-height: 100px;
+}
+
+.services-items:hover .service-number{
+  border: 1px solid #181818;
+}
+.services-items:hover .service-icon{
+  transform: rotate(110deg);
 }

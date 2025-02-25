@@ -40,7 +40,7 @@ const Header = () => {
       <header className="header bg-li fc1 ptb12 fw5 fs14">
         <div className="wrapper v-center jcsb h80">
           <Link href="/" className="logo box-center ptb8">
-            <Image src="/logo.png" width={130} height={35} alt="Logo img" />
+            <Image src="/images/logo.png" width={130} height={35} alt="Logo img" />
           </Link>
           {/* <HamburgerMenu isOpen={isMenuOpen} toggleMenu={toggleMenu} /> */}
           <ul id="nav-items" className="nav-items v-center fc1 fww">
