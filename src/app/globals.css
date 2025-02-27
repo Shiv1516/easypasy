@@ -315,8 +315,11 @@ table {
 .bg-h3:hover {
   background-color: #fdfcfc;
 }
-.bg4{
+.bg4 {
   background-color: #ffffff1a;
+}
+.bg5 {
+  background-color: #0d0d0d;
 }
 .bg-li {
   background: linear-gradient(180deg, #000, #000000b3);
@@ -875,6 +878,9 @@ table {
 .brd2 {
   border: 1px solid #031be11a;
 }
+.brd3 {
+  border: 1px solid #ffffff1a;
+}
 .brd-b1 {
   border-left: 1px solid #031be11a;
   border-right: 1px solid #031be11a;
@@ -1030,15 +1036,14 @@ table {
   line-height: 100px;
 }
 
-.services-items:hover .service-number{
+.services-items:hover .service-number {
   border: 1px solid #181818;
 }
-.services-items:hover .service-icon{
+.services-items:hover .service-icon {
   transform: rotate(110deg);
 }
 
-
 /* Blogs */
-  .blog-items:hover .blog-hidd-container{
-    display: block;
-  }
+.blog-items:hover .blog-hidd-container {
+  display: block;
+}
