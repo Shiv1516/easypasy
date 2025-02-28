@@ -1093,3 +1093,14 @@ table {
   z-index: 0;
   width: 116.5%;
 }
+
+.hiw-container:after {
+  z-index: 0;
+  right: -10%;
+  bottom: 25%;
+  filter: blur(75px);
+  width: 400px;
+  height: 200px;
+  background: #ffd043;
+  transform: translate(20%) rotate(-9.61deg);
+}

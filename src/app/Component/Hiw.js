@@ -4,14 +4,14 @@ import Image from "next/image";
 export default function Hiw() {
   return (
     <div className="hiw-section bg1">
-      <div className="hiw-container wrapper tac ptb90 fc1 brd-b2">
+      <div className="hiw-container wrapper tac ptb90 fc1 brd-b2 aft pr">
         <h4 className="hiw-subheading p8 ls1 brd1 bg4 dib fs14 br8 fw6 mb16">
           How IT Works
         </h4>
         <h2 className="hiw-main-text fs40 fw7 lh48 mb40">
           Step by Step Working Process
         </h2>
-        <div className="hiw-cards df fww pt32 pr aisc">
+        <div className="hiw-cards df fww pt32 pr aisc zi2">
           <img src="/images/work-step-line.png" className="hiw-bg-img pa" />
           <div className="hiw-card-box flx25 df">
             <div className="hiw-card-container mlr16">
