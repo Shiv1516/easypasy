@@ -759,6 +759,10 @@ table {
 .ptb48 {
   padding-top: 64px;
 }
+.ptb90 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
 
 .pl4,
 .plr4 {
@@ -775,6 +779,10 @@ table {
 .pl16,
 .plr16 {
   padding-left: 16px;
+}
+.pl20,
+.plr20 {
+  padding-left: 20px;
 }
 .pl24,
 .plr24 {
@@ -812,6 +820,10 @@ table {
 .pr16,
 .plr16 {
   padding-right: 16px;
+}
+.pr20,
+.plr20 {
+  padding-right: 20px;
 }
 .pr24,
 .plr24 {
@@ -884,6 +896,10 @@ table {
 .brd-b1 {
   border-left: 1px solid #031be11a;
   border-right: 1px solid #031be11a;
+}
+.brd-b2 {
+  border-left: 1px solid #f1efe83d;
+  border-right: 1px solid #f1efe83d;
 }
 
 .bs1,
@@ -1046,4 +1062,34 @@ table {
 /* Blogs */
 .blog-items:hover .blog-hidd-container {
   display: block;
+}
+
+/* Hiw section  */
+.circle {
+  width: 40px;
+  height: 40px;
+  transition: 0.5s;
+  margin: 30px auto;
+  background: #000;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.circle:before {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  background: #fff;
+  border-radius: 50%;
+}
+.hiw-bg-img {
+  top: 46%;
+  left: -5%;
+  z-index: 0;
+  width: 116.5%;
 }

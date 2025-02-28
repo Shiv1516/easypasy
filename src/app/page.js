@@ -6,6 +6,7 @@ import Hero from "./Component/Hero";
 import Hiw from "./Component/Hiw";
 import PopularWork from "./Component/PopularWork";
 import Service from "./Component/Service";
+import Testmonial from "./Component/Testmonial";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Service />
       <Hiw />
       <PopularWork />
+      <Testmonial />
       <Blogs />
       <Footer />
     </>
