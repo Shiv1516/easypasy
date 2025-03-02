@@ -1115,8 +1115,8 @@ table {
 
 /* contact section  */
 .context-section {
-  background: url(../../public/images/contact.png) center/cover;
-  height: 70vh;
+  background: url(/public/images/contact.png) center/cover;
+  height: 60vh;
 }
 
 /* footer section css */
