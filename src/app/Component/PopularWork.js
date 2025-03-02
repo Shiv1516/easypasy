@@ -69,7 +69,7 @@ export default function PopularWork() {
       </ul>
       <Link
         href="/"
-        className="popular-work-button p16 ls1 brd2 dib fs14 br8 fw6 fc2"
+        className="popular-work-button p16 ls1 brd2 dib bg-h1 fs14 br8 fw6 fc2"
       >
         Explore More
       </Link>

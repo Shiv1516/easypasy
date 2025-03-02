@@ -394,6 +394,9 @@ table {
 .fs56 {
   font-size: 56px;
 }
+.fs200 {
+  font-size: 200px;
+}
 
 .lh14 {
   line-height: 14px;
@@ -1103,4 +1106,10 @@ table {
   height: 200px;
   background: #ffd043;
   transform: translate(20%) rotate(-9.61deg);
+}
+
+/* contact section  */
+.context-section {
+  background: url(../../public/images/contact.png) center/cover;
+  height: 60vh;
 }

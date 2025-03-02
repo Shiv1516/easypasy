@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Blogs() {
   return (
-    <div className="blogs-section ptb48 tac wrapper brd-b1 ofh">
+    <div className="blogs-section pt48 tac wrapper brd-b1 ofh">
       <h4 className="blog-subheading p8 ls1 brd2 dib fs14 br8 fw6 fc2 mb16">
         Blog & News
       </h4>
