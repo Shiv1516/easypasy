@@ -901,8 +901,13 @@ table {
   border-right: 1px solid #031be11a;
 }
 .brd-b2 {
-  border-left: 1px solid #f1efe83d;
-  border-right: 1px solid #f1efe83d;
+  border-left: 1px solid #ffffff1a;
+  border-right: 1px solid #ffffff1a;
+}
+.brd-b3 {
+  border-left: 1px solid #ffffff1a;
+  border-right: 1px solid #ffffff1a;
+  border-top: 1px solid #ffffff1a;
 }
 
 .bs1,
@@ -1111,5 +1116,35 @@ table {
 /* contact section  */
 .context-section {
   background: url(../../public/images/contact.png) center/cover;
-  height: 60vh;
+  height: 70vh;
+}
+
+/* footer section css */
+.footer-card-btn {
+  top: 6px;
+  right: 6px;
+}
+.foot-icon {
+  left: 15px;
+  top: 14.5px;
+}
+.footer-section:after {
+  z-index: 0;
+  left: -12%;
+  top: 19%;
+  filter: blur(75px);
+  width: 400px;
+  height: 200px;
+  background: #ffd043;
+  transform: translate(20%) rotate(-9.61deg);
+}
+.footer-section::before {
+  z-index: 0;
+  right: -2%;
+  top: 50%;
+  filter: blur(75px);
+  width: 400px;
+  height: 200px;
+  background: #ffd043;
+  transform: translate(20%) rotate(-9.61deg);
 }
