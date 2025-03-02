@@ -1115,7 +1115,11 @@ table {
 
 /* contact section  */
 .context-section {
-  background: url(/public/images/contact.png) center/cover;
+  /* background: url(../../public/images/contact.png) center/cover; */
+  background-image: url(../../public/images/contact.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 60vh;
 }
 
