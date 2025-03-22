@@ -88,6 +88,15 @@ export default function Footer() {
             </p>
           </div>
         </div>
+        <span className="footer-icon mb40">
+          <Image
+            width={250}
+            height={250}
+            src="/images/hero-shape.png"
+            alt="icon-image"
+            className="footer-img-icon pa l0 b0 mb40"
+          />
+        </span>
       </div>
       <p className="ptb40 fs14 fw5 fc1 tac wrapper brd-b3">
         Copyright © baba, all rights reserved.

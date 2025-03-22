@@ -492,6 +492,9 @@ table {
 .r0 {
   right: 0;
 }
+.r25 {
+  right: 25%;
+}
 
 .t0 {
   top: 0;
@@ -949,8 +952,8 @@ table {
 .w50 {
   width: 50%;
 }
-.w60 {
-  width: 60%;
+.w65 {
+  width: 65%;
 }
 .w80 {
   width: 80%;
@@ -1060,6 +1063,11 @@ table {
   line-height: 100px;
 }
 
+.hero-heading {
+  font-size: 160px;
+  line-height: 160px;
+}
+
 .services-items:hover .service-number {
   border: 1px solid #181818;
 }
@@ -1151,4 +1159,28 @@ table {
   height: 200px;
   background: #ffd043;
   transform: translate(20%) rotate(-9.61deg);
+}
+.hero-section:after {
+  z-index: 1;
+  left: 0;
+  top: 30%;
+  width: 1000px;
+  height: 300px;
+  filter: blur(100px);
+  background: #ffd043;
+  transform: translate(-10%) rotate(-9.61deg);
+}
+
+.img-icon {
+  animation: rotated_circle_reverse 20s infinite linear;
+  transform-origin: center center;
+}
+
+@keyframes rotated_circle_reverse {
+  0% {
+    transform: rotate(0deg); /* Start at 0 degrees */
+  }
+  100% {
+    transform: rotate(360deg); /* Rotate to 360 degrees */
+  }
 }
