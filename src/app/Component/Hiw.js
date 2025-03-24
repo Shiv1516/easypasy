@@ -15,18 +15,19 @@ export default function Hiw() {
           <img src="/images/work-step-line.png" className="hiw-bg-img pa" />
           <div className="hiw-card-box flx25 df">
             <div className="hiw-card-container mlr16">
-              <div className="card-img">
+              <div className="card-img df">
                 <Image
                   src="/images/work-process.jpg"
                   width={270}
                   height={170}
+                  sizes="40vh"
                   alt="work-process-img"
-                  className="hiw-image br8 "
+                  className="hiw-image br8 w100"
                 />
               </div>
               <div className="circle bef pr"></div>
 
-              <div className="card-text plr16 ptb32 brd3 br8">
+              <div className="card-text plr16 ptb32 brd3 br8 transit2">
                 <h5 className="card-text-heading mb24 fs22 fw6 mlr24 lh30">
                   Discovery and Strategy
                 </h5>
@@ -39,7 +40,7 @@ export default function Hiw() {
           </div>
           <div className="hiw-card-box flx25 df">
             <div className="hiw-card-container mlr16">
-              <div className="card-text plr16 ptb32 brd3 br8">
+              <div className="card-text plr16 ptb32 brd3 br8 bg-h1 fc-h1 transit2">
                 <h5 className="card-text-heading mb24 fs22 fw6 mlr24 lh30">
                   Discovery and Strategy
                 </h5>
@@ -49,31 +50,33 @@ export default function Hiw() {
                 </p>
               </div>
               <div className="circle bef pr"></div>
-              <div className="card-img">
+              <div className="card-img df">
                 <Image
                   src="/images/work-process.jpg"
                   width={270}
                   height={170}
+                  sizes="40vh"
                   alt="work-process-img"
-                  className="hiw-image br8"
+                  className="hiw-image br8 w100"
                 />
               </div>
             </div>
           </div>
           <div className="hiw-card-box flx25 df">
             <div className="hiw-card-container mlr16">
-              <div className="card-img">
+              <div className="card-img df">
                 <Image
                   src="/images/work-process.jpg"
                   width={270}
                   height={170}
+                  sizes="40vh"
                   alt="work-process-img"
-                  className="hiw-image br8"
+                  className="hiw-image br8 w100"
                 />
               </div>
               <div className="circle bef pr"></div>
 
-              <div className="card-text plr16 ptb32 brd3 br8">
+              <div className="card-text plr16 ptb32 brd3 br8 bg-h1 fc-h1 transit2">
                 <h5 className="card-text-heading mb24 fs22 fw6 mlr24 lh30">
                   Discovery and Strategy
                 </h5>
@@ -86,7 +89,7 @@ export default function Hiw() {
           </div>
           <div className="hiw-card-box flx25 df">
             <div className="hiw-card-container mlr16">
-              <div className="card-text plr16 ptb32 brd3 br8">
+              <div className="card-text plr16 ptb32 brd3 br8 bg-h1 fc-h1 transit2">
                 <h5 className="card-text-heading mb24 fs22 fw6 mlr24 lh30">
                   Discovery and Strategy
                 </h5>
@@ -96,13 +99,14 @@ export default function Hiw() {
                 </p>
               </div>
               <div className="circle bef pr"></div>
-              <div className="card-img">
+              <div className="card-img df">
                 <Image
                   src="/images/work-process.jpg"
                   width={270}
                   height={170}
+                  sizes="40vh"
                   alt="work-process-img"
-                  className="hiw-image br8"
+                  className="hiw-image br8 w100"
                 />
               </div>
             </div>

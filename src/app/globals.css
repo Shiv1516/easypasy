@@ -899,6 +899,9 @@ table {
 .brd3 {
   border: 1px solid #ffffff1a;
 }
+.brd4 {
+  border: 2px solid #ece6e6;
+}
 .brd-b1 {
   border-left: 1px solid #031be11a;
   border-right: 1px solid #031be11a;
@@ -1039,6 +1042,14 @@ table {
   text-decoration: underline;
 }
 
+/* Hero css */
+.client-img {
+  margin-left: -15px;
+}
+.hero-icons-client {
+  top: -10%;
+}
+
 /* About-us  */
 .about-detail-box {
   width: 160px;
@@ -1121,6 +1132,15 @@ table {
   transform: translate(20%) rotate(-9.61deg);
 }
 
+.hiw-card-container:hover .card-text,
+.hiw-card-container:hover .circle {
+  color: #000;
+  background-color: #ffd043;
+}
+.hiw-card-container:hover .circle:before {
+  background: #000;
+}
+
 /* contact section  */
 .context-section {
   /* background: url(../../public/images/contact.png) center/cover; */
@@ -1183,4 +1203,8 @@ table {
   100% {
     transform: rotate(360deg); /* Rotate to 360 degrees */
   }
+}
+
+.clients-details {
+  margin-top: -15%;
 }
