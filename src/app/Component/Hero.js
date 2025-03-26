@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="hero-section bg1 aft pr pt40">
+    <div className="hero-section bg1 aft pr pt40 zi3">
       <div className="hero-container wrapper ptb90 pr fc1 zi2">
         <h1 className="hero-heading fw7 mb32 pr">
           Building Responsive Websites
@@ -80,17 +80,15 @@ export default function Hero() {
           />
         </div>
       </div>
+      <Image
+        src="/images/counter.png"
+        width={250}
+        height={250}
+        alt="hero-icons"
+        className="hero-icons-01 pa b0 r0"
+      />
 
-      <div className="clients-hero df jce pr">
-        <span className="hero-icons-client pa r0 t0">
-          <Image
-            src="/images/counter.png"
-            width={250}
-            height={250}
-            alt="hero-icons"
-            className="hero-icons-01"
-          />
-        </span>
+      <div className="clients-hero df jce">
         <div className="clients-details flx50 df plr40 ptb40 bg2 mb24 br8">
           <div className="clients-cards lx33">
             <div className="clients-card mlr24 tac">
