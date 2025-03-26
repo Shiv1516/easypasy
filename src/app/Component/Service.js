@@ -1,5 +1,6 @@
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
+import Image from "next/image";
 
 export default function Service() {
   return (
@@ -11,30 +12,75 @@ export default function Service() {
         Creative & Modern Services
       </h2>
       <ul className="all-service pt32">
-        <li className="services-items df aic jcsb plr32 brd2 ptb32 bg-h1 transit1 cp">
+        <li className="services-items df aic jcsb plr32 brd2 ptb40 bg-h1 transit1 cp pr">
           <h4 className="service-number p8 ls1 brd2 dib fs14 br8 fw6">01</h4>
           <h2 className="service-heading fw6 flx60 tal">Web Design</h2>
           <MdArrowOutward className="service-icon fs24 transit2" />
+          <div className="service-image-wrapper">
+            <Image
+              src="/images/service-timeline.jpg"
+              width={250}
+              height={300}
+              alt="service img"
+              className="service-image"
+            />
+          </div>
         </li>
-        <li className="services-items df aic jcsb plr32 brd2 ptb32 bg-h1 transit1 cp">
+        <li className="services-items df aic jcsb plr32 brd2 ptb40 bg-h1 transit1 cp pr">
           <h4 className="service-number p8 ls1 brd2 dib fs14 br8 fw6">02</h4>
           <h2 className="service-heading fw6 flx60 tal">Branding</h2>
           <MdArrowOutward className="service-icon fs24 transit2" />
+          <div className="service-image-wrapper">
+            <Image
+              src="/images/service-timeline.jpg"
+              width={250}
+              height={300}
+              alt="service img"
+              className="service-image"
+            />
+          </div>
         </li>
-        <li className="services-items df aic jcsb plr32 brd2 ptb32 bg-h1 transit1 cp">
+        <li className="services-items df aic jcsb plr32 brd2 ptb40 bg-h1 transit1 cp pr">
           <h4 className="service-number p8 ls1 brd2 dib fs14 br8 fw6">03</h4>
           <h2 className="service-heading fw6 flx60 tal">SEO</h2>
           <MdArrowOutward className="service-icon fs24 transit2" />
+          <div className="service-image-wrapper">
+            <Image
+              src="/images/service-timeline.jpg"
+              width={250}
+              height={300}
+              alt="service img"
+              className="service-image"
+            />
+          </div>
         </li>
-        <li className="services-items df aic jcsb plr32 brd2 ptb32 bg-h1 transit1 cp">
+        <li className="services-items df aic jcsb plr32 brd2 ptb40 bg-h1 transit1 cp pr">
           <h4 className="service-number p8 ls1 brd2 dib fs14 br8 fw6">04</h4>
           <h2 className="service-heading fw6 flx60 tal">Motion Design</h2>
           <MdArrowOutward className="service-icon fs24 transit2" />
+          <div className="service-image-wrapper">
+            <Image
+              src="/images/service-timeline.jpg"
+              width={250}
+              height={300}
+              alt="service img"
+              className="service-image"
+            />
+          </div>
         </li>
-        <li className="services-items df aic jcsb plr32 brd2 ptb32 bg-h1 transit1 cp">
+        <li className="services-items df aic jcsb plr32 brd2 ptb40 bg-h1 transit1 cp pr">
           <h4 className="service-number p8 ls1 brd2 dib fs14 br8 fw6">05</h4>
           <h2 className="service-heading fw6 flx60 tal">3D Animation</h2>
           <MdArrowOutward className="service-icon fs24 transit2" />
+          <div className="service-image-wrapper">
+            <Image
+              src="/images/service-timeline.jpg"
+              width={250}
+              height={300}
+              alt="service img"
+              className="service-image"
+            />
+          </div>
         </li>
       </ul>
     </div>

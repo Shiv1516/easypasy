@@ -12,58 +12,58 @@ export default function PopularWork() {
         Explore Our Latest Projects
       </h2>
       <ul className="popular-work-sample ptb32 mb16 df jcsb fww">
-        <li className="popular-word-cards mb16">
+        <li className="popular-word-cards mb16 ofh">
           <Image
             src="/images/project-image1.jpg"
             alt="popular-work-image"
             width={810}
             height={369}
-            className
+            className="populer-work-img transit2"
           />
         </li>
-        <li className="popular-word-cards mb16">
+        <li className="popular-word-cards mb16 ofh">
           <Image
             src="/images/project-image2.jpg"
             alt="popular-work-image"
             width={410}
             height={370}
-            className
+            className="populer-work-img transit2"
           />
         </li>
-        <li className="popular-word-cards mb16">
+        <li className="popular-word-cards mb16 ofh">
           <Image
             src="/images/project-image2.jpg"
             alt="popular-work-image"
             width={410}
             height={370}
-            className
+            className="populer-work-img transit2"
           />
         </li>
-        <li className="popular-word-cards mb16">
+        <li className="popular-word-cards mb16 ofh">
           <Image
             src="/images/project-image1.jpg"
             alt="popular-work-image"
             width={810}
             height={369}
-            className
+            className="populer-work-img transit2"
           />
         </li>
-        <li className="popular-word-cards mb16">
+        <li className="popular-word-cards mb16 ofh">
           <Image
             src="/images/project-image1.jpg"
             alt="popular-work-image"
             width={810}
             height={369}
-            className
+            className="populer-work-img transit2"
           />
         </li>
-        <li className="popular-word-cards mb16">
+        <li className="popular-word-cards mb16 ofh">
           <Image
             src="/images/project-image2.jpg"
             alt="popular-work-image"
             width={410}
             height={370}
-            className
+            className="populer-work-img transit2"
           />
         </li>
       </ul>
