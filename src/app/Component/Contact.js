@@ -13,7 +13,7 @@ export default function Contact() {
         </p>
         <div className="contect-button dib">
           <Link
-            href="#"
+            href="/contact"
             className="contact-btn h40 fw5 plr24 bg2 v-center fc2 br8"
           >
             Get Started

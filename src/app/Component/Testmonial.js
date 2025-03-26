@@ -6,14 +6,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const testimonials = [
-  { id: 1, src: "/images/testimonial-01.png", alt: "Testimonial 1" },
-  { id: 2, src: "/images/testimonial-02.png", alt: "Testimonial 2" },
-  { id: 3, src: "/images/testimonial-01.png", alt: "Testimonial 3" },
-  { id: 4, src: "/images/testimonial-02.png", alt: "Testimonial 4" },
-  { id: 5, src: "/images/testimonial-01.png", alt: "Testimonial 5" },
-  { id: 6, src: "/images/testimonial-02.png", alt: "Testimonial 6" },
-  { id: 7, src: "/images/testimonial-01.png", alt: "Testimonial 7" },
-  { id: 8, src: "/images/testimonial-02.png", alt: "Testimonial 8" },
+  { id: 10, src: "/images/testimonial-01.png", alt: "Testimonial 1" },
+  { id: 20, src: "/images/testimonial-02.png", alt: "Testimonial 2" },
+  { id: 30, src: "/images/testimonial-01.png", alt: "Testimonial 3" },
+  { id: 40, src: "/images/testimonial-02.png", alt: "Testimonial 4" },
+  { id: 50, src: "/images/testimonial-01.png", alt: "Testimonial 5" },
+  { id: 60, src: "/images/testimonial-02.png", alt: "Testimonial 6" },
+  { id: 70, src: "/images/testimonial-01.png", alt: "Testimonial 7" },
+  { id: 80, src: "/images/testimonial-02.png", alt: "Testimonial 8" },
 ];
 
 const testimonials1 = [
