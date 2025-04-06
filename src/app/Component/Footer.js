@@ -30,19 +30,19 @@ export default function Footer() {
           <div className="footer-card-container mlr16 fw5">
             <Link href="/" className="logo mb12">
               <Image
-                src="/images/logo.png"
+                src="/images/easy-pasy-logo.png"
                 width={130}
                 height={35}
                 alt="logo-img"
               />
             </Link>
             <p className="footer-card-text lh24 mb24">
-              High-quality content the heart successful marketing strategy
-              drives engage.
+              High-performance digital solutions are the core of modern business
+              growth and user engagement.
             </p>
             <div className="footer-card-inputbox pr">
               <input
-                placeholder="Email Address "
+                placeholder="Email Address"
                 className="df w100 h48 pl40 fs14 fw5 ls1 br8"
               />
               <CiMail className="foot-icon pa fc2 fw5 fs18" />
@@ -64,8 +64,8 @@ export default function Footer() {
           <div className="footer-card-container mlr16 fw5">
             <h2 className="footer-card-heading mb24">Contact Us</h2>
             <p className="footer-card-subheading lh28 fs18 ">
-              <Link href="tel:+917052211516">+91 7052211516</Link>
-              <Link href="mailto:example@email.com">example@email.com</Link>
+              <Link href="+91 9891129590">+91 9891129590</Link>
+              <Link href="mailto:geeta@easypasy.com">geeta@easypasy.com</Link>
             </p>
           </div>
         </div>
@@ -73,16 +73,25 @@ export default function Footer() {
           <div className="footer-card-container mlr16 fw5">
             <h2 className="footer-card-heading mb24">Follow Us</h2>
             <p className="footer-card-subheading lh28 fs18 df">
-              <Link href="/" className="social-items mr12">
+              <Link
+                href="https://in.linkedin.com/"
+                className="social-items mr12"
+              >
                 <FaLinkedinIn className="brd1 p8 br50 bg-h1 fc-h1 transit1" />
               </Link>
-              <Link href="/" className="social-items mr12">
+              <Link
+                href="https://www.instagram.com/"
+                className="social-items mr12"
+              >
                 <FaInstagram className="brd1 p8 br50 bg-h1 fc-h1 transit1" />
               </Link>
-              <Link href="/" className="social-items mr12">
+              <Link href="https://www.x.com/" className="social-items mr12">
                 <FaXTwitter className="brd1 p8 br50 bg-h1 fc-h1 transit1" />
               </Link>
-              <Link href="/" className="social-items mr12">
+              <Link
+                href="https://www.facebook.com/"
+                className="social-items mr12"
+              >
                 <FaFacebookF className="brd1 p8 br50 bg-h1 fc-h1 transit1" />
               </Link>
             </p>

@@ -4,10 +4,10 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="hero-section bg1 aft pr pt40 zi3">
+    <div className="hero-section bg1 aft pr pt40 zi3" id="hero">
       <div className="hero-container wrapper ptb90 pr fc1 zi2">
-        <h1 className="hero-heading fw7 mb32 pr">
-          Building Responsive Websites
+        <h1 className="hero-heading fw7 mb32 pr w65">
+          Next-Gen Digital Solutions
         </h1>
         <span className="hero-icon">
           <Image
@@ -20,14 +20,14 @@ export default function Hero() {
         </span>
 
         <p className="hero-subtext lh30 ls1 fw5 w65 fs20 mb40">
-          Web design is a critical aspect of creating an effective online
-          presence for any business or individual. A well-designed website not
-          only reflects a brand's identity but also enhances user experience,
-          ensuring visitors can easily
+          Digital design plays a vital role in building a strong online identity
+          for businesses of all sizes. From custom websites to CRMs, our
+          solutions are crafted to boost engagement, improve usability, and
+          drive growth through seamless experiences.
         </p>
         <div className="hero-btn dib mb32">
           <Link
-            href="#"
+            href="#popularWork"
             className="talk-btn bg-h3 h48 plr24 fw7 bg2 v-center fc2 br8"
           >
             Explore Our Projects
@@ -35,7 +35,9 @@ export default function Hero() {
         </div>
 
         <div className="clients pt24">
-          <h3 className="mb16 fw6 ls1 fs18 mb32">5m+ Trusted Clients</h3>
+          <h3 className="mb16 fw6 ls1 fs18 mb32">
+            Empowering Brands from Day One
+          </h3>
           <Image
             src="/images/author.jpg"
             width={70}
@@ -87,39 +89,39 @@ export default function Hero() {
         alt="hero-icons"
         className="hero-icons-01 pa b0 r0"
       />
-
       <div className="clients-hero df jce">
         <div className="clients-details flx50 df plr40 ptb40 bg2 mb24 br8">
           <div className="clients-cards lx33">
             <div className="clients-card mlr24 tac">
-              <h2 className="clients-card-count mb12 fs44 fw7">25k+</h2>
+              <h2 className="clients-card-count mb12 fs44 fw7">100%</h2>
               <h5 className="clients-card-title mb16 p12 bg1 fc1 br4 dib fw5 fs14">
-                Project Complete
+                Custom-Built Solutions
               </h5>
               <p className="clients-card-details lh28 fw5">
-                Completing a mobile application development
+                Websites, apps, and CRMs tailored to your unique business goals.
               </p>
             </div>
           </div>
           <div className="clients-cards lx33">
             <div className="clients-card mlr24 tac">
-              <h2 className="clients-card-count mb12 fs44 fw7">25k+</h2>
+              <h2 className="clients-card-count mb12 fs44 fw7">100%</h2>
               <h5 className="clients-card-title mb16 p12 bg1 fc1 br4 dib fw5 fs14">
-                Project Complete
+                High-Speed Scalable Tech
               </h5>
               <p className="clients-card-details lh28 fw5">
-                Completing a mobile application development
+                We use modern tech to build performance-driven, future-ready
+                platforms.
               </p>
             </div>
           </div>
           <div className="clients-cards lx33">
             <div className="clients-card mlr24 tac">
-              <h2 className="clients-card-count mb12 fs44 fw7">25k+</h2>
+              <h2 className="clients-card-count mb12 fs44 fw7">100%</h2>
               <h5 className="clients-card-title mb16 p12 bg1 fc1 br4 dib fw5 fs14">
-                Project Complete
+                Startup-Friendly Approach
               </h5>
               <p className="clients-card-details lh28 fw5">
-                Completing a mobile application development
+                We grow with you — whether you're just starting or scaling up.
               </p>
             </div>
           </div>

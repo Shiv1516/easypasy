@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function PopularWork() {
   return (
-    <div className="popular-work-section ptb90 tac wrapper brd-b1 ofh">
+    <div className="popular-work-section ptb90 tac wrapper brd-b1 ofh" id="popularWork">
       <h4 className="popular-work-subheading p8 ls1 brd2 dib fs14 br8 fw6 fc2 mb16">
         Popular Works
       </h4>

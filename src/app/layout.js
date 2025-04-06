@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable}`}
-        style={{ overflow: "hidden" }}
+        suppressHydrationWarning
       >
         {children}
       </body>

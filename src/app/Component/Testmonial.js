@@ -42,6 +42,7 @@ const testimonials1 = [
     avatar: "/images/author.jpg",
   },
 ];
+
 export default function Testmonial() {
   const settings = {
     dots: false,
@@ -66,6 +67,7 @@ export default function Testmonial() {
       },
     ],
   };
+
   const settings1 = {
     dots: true,
     infinite: true,
@@ -78,12 +80,12 @@ export default function Testmonial() {
   };
 
   return (
-    <div className="testmonial-section ptb40 wrapper brd2 br8">
+    <div className="testmonial-section ptb40 wrapper brd2 br8" id="testmonial">
       <div className="testmonial-container df fww ptb40 mb32">
         <div className="test-cards flx50 plr40">
-          <h5 className="brd1 p12 fw6 dib br8 mb32">Out Testimonials</h5>
+          <h5 className="brd1 p12 fw6 dib br8 mb32">Our Testimonials</h5>
           <h2 className="fs40 lh48 fw7 mb32">
-            1580+ Customer Say About Our Services
+            1580+ Customers Say About Our Services
           </h2>
           <p className="lh24">
             A web design agency is dedicated to creating visually stunning and
@@ -94,8 +96,8 @@ export default function Testmonial() {
           <div className="slider-container">
             <Slider {...settings1}>
               {testimonials1.map((item) => (
-                <div className="text-card-container plr16">
-                  <div key={item.id} className="text-card brd2 p24 br8">
+                <div key={item.id} className="text-card-container plr16">
+                  <div className="text-card brd2 p24 br8">
                     <div className="dtext-card-img df jce">
                       <Image
                         src={item.logo}
@@ -113,7 +115,7 @@ export default function Testmonial() {
                         src={item.avatar}
                         width={60}
                         height={60}
-                        alt="client-icon"
+                        alt="client icon"
                         className="br50 brd4 mr16"
                       />
                       <h5 className="fw7">
@@ -130,13 +132,13 @@ export default function Testmonial() {
       </div>
       <div className="all-partner-list pt32 tac">
         <h4 className="all-par-cards fw7 mb32 fs20">
-          Trusted by industry leaders
+          Trusted by Industry Leaders
         </h4>
         <div className="slider-container">
           <Slider {...settings}>
             {testimonials.map((item) => (
               <div key={item.id} className="slider-item tac">
-                <div className="df jcc ">
+                <div className="df jcc">
                   <Image
                     src={item.src}
                     width={150}
