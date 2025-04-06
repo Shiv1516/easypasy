@@ -260,9 +260,9 @@ table {
 .flx100 {
   flex: 0 0 100%;
 }
-.flx40 {
-  flex: 0 0 40%;
-  max-width: 40%;
+.flx48 {
+  flex: 0 0 48%;
+  max-width: 48%;
 }
 .flx50 {
   flex: 0 0 50%;
@@ -455,6 +455,9 @@ table {
 
 .ttu {
   text-transform: uppercase;
+}
+.tdu {
+  text-decoration: underline;
 }
 .fsi {
   font-style: italic;

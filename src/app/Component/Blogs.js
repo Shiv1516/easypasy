@@ -31,7 +31,7 @@ export default function Blogs() {
                 and stronger audience connection.
               </p>
               <Image
-                src="/images/blog-timeline1.jpg"
+                src="/images/blog-img-01.jpg"
                 width={250}
                 height={150}
                 alt="Blog-image"
@@ -56,7 +56,7 @@ export default function Blogs() {
                 brand authority in a fast-changing digital world.
               </p>
               <Image
-                src="/images/blog-timeline1.jpg"
+                src="/images/blog-img-02.jpg"
                 width={250}
                 height={150}
                 alt="Blog-image"
@@ -81,7 +81,7 @@ export default function Blogs() {
                 relationships, improve retention, and boost productivity.
               </p>
               <Image
-                src="/images/blog-timeline1.jpg"
+                src="/images/blog-img-03.jpg"
                 width={250}
                 height={150}
                 alt="Blog-image"
@@ -106,7 +106,7 @@ export default function Blogs() {
                 build solutions that scale and evolve.
               </p>
               <Image
-                src="/images/blog-timeline1.jpg"
+                src="/images/blog-img-04.jpg"
                 width={250}
                 height={150}
                 alt="Blog-image"

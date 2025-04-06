@@ -34,7 +34,7 @@ export default function Service() {
           <MdArrowOutward className="service-icon fs24 transit2" />
           <div className="service-image-icon">
             <Image
-              src="/images/service-timeline.jpg"
+              src="/images/blog-img-01.jpg"
               width={250}
               height={300}
               alt="service img"
@@ -50,7 +50,7 @@ export default function Service() {
           <MdArrowOutward className="service-icon fs24 transit2" />
           <div className="service-image-icon">
             <Image
-              src="/images/service-timeline.jpg"
+              src="/images/blog-img-02.jpg"
               width={250}
               height={300}
               alt="service img"
@@ -66,7 +66,7 @@ export default function Service() {
           <MdArrowOutward className="service-icon fs24 transit2" />
           <div className="service-image-icon">
             <Image
-              src="/images/service-timeline.jpg"
+              src="/images/blog-img-03.jpg"
               width={250}
               height={300}
               alt="service img"
@@ -80,7 +80,7 @@ export default function Service() {
           <MdArrowOutward className="service-icon fs24 transit2" />
           <div className="service-image-icon">
             <Image
-              src="/images/service-timeline.jpg"
+              src="/images/blog-img-04.jpg"
               width={250}
               height={300}
               alt="service img"

@@ -77,9 +77,14 @@ const Header = () => {
                 Blog
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href="#contact" className="nav-link p16 ls1 transit2">
+                Contact
+              </Link>
+            </li>
           </ul>
           <Link
-            href="#"
+            href="mailto:geeta@easypasy.com"
             className="talk-btn bg-h3 h40 plr24 bg2 v-center fc2 br8"
           >
             Start Project
