@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div>
       <Header />
-      <h2 className="contact-page-detail tac fs56 fw6 tdu pt48 mt40">
+      <h2 className="inner-page-detail tac fs56 fw6 tdu pt48 mt40">
         Start a Conversation
       </h2>
       <div className="component-container ptb48 mt40 wrapper df aic fww">
