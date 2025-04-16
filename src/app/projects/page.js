@@ -20,6 +20,7 @@ function Project() {
               alt="project-img"
               className="w100 mb24"
             />
+
             <h3 className="project-card-heading mb">Lorem dcsf fsf sfdsff</h3>
           </div>
         </div>
