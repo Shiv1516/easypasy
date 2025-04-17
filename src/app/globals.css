@@ -314,6 +314,9 @@ table {
 .bg-h1:hover {
   background-color: #ffd043;
 }
+.bg-h3:hover {
+  background-color: #e94504;
+}
 
 .bg3 {
   background-color: #ffffff1a;
